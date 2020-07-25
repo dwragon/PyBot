@@ -1,6 +1,4 @@
 import os
-import string
-import win32api
 from ctypes import windll
 
 print()
