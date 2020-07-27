@@ -8,3 +8,7 @@ file.txt
 sys.txt
 text.txt
 *.txt
+__pycache__/get_app.cpython-36.pyc
+__pycache__/get_file.cpython-36.pyc
+__pycache__/get_app.cpython-36.pyc
+__pycache__/get_file.cpython-36.pyc
