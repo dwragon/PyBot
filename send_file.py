@@ -7,8 +7,8 @@ from email.mime.text import MIMEText
 
 subject = "An email with attachment from Python"
 body = "This is an email with attachment sent from Python"
-sender_email = "kurwapawa@gmail.com"
-receiver_email = "kurwapawa@gmail.com"
+sender_email = "xaeh80064@gmail.com"
+receiver_email = "xaeh80064@gmail.com"
 password = ("bereg_srednii")
 
 # Это для составного сообщения
